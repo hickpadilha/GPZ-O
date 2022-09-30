@@ -1,0 +1,149 @@
+/*Estilização do Corpo da Página*/
+
+
+body{
+    background: rgb(122, 170, 241);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1; /*espaçamento entre paragrafo */
+    font-family: 'tahoma','Arial';
+}
+/*Estilização da sessão HEADER da página*/
+header{
+    background: #ffffff;
+    
+}
+/*Estilização da sessão NAV (navegação da página)*/
+nav{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+   
+
+}
+nav li {
+    display: inline; /* alinhar menu */
+    margin: 0 10px 0 50px; /* espaçamento da linha lado direito */
+}
+nav a{
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: 10pz;
+    font-size: 25px;
+    text-decoration: none;
+    position: 50px;
+
+}
+nav a:hover{
+    color:#0015ff;
+    text-decoration: underline;
+}
+/*Estilização das listas da página*/
+ul{
+    list-style: none;  
+}
+
+.logo{
+    width: 20%;
+    border-radius: 40px;
+}
+    
+/*Banner */
+.banner{
+    width: 100%;
+    height: 1000px; 
+}
+
+/* estilizando titulo principal */
+
+.titulo-principal{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2cm;  /* dobro da fonte padrão*/
+    margin: 2cm 0cm 2cm  0;
+    clear: left;
+}
+
+.principal {
+    color: rgb(0, 0, 0);
+    width: 880px;
+    margin: 0 auto;
+    padding: 2cm 0;
+    background: #ffffff;
+    text-align: justify;
+}
+
+.principal em {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+.sobre {
+    width: 220px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.map {
+    padding: em 0;
+    background: linear-gradient(
+        #9d9daa, #4322d5);
+}
+
+.mapa-conteudo {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.map p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: #285d92;
+}
+
+.conteudo-beneficios{
+    width: 780px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.lista-beneficio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.conteudo_click {
+    width: 40%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 0px #000000;
+}
+.conteudo_click:hover {
+    opacity: 0.7;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:before {
+    content: "";
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
+ }
+footer{
+    text-align: center;
+    background: #ffffff;
+}
